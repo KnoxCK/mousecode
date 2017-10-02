@@ -1,1 +1,82 @@
+.wrapper {
+	background-position: cover;
+	height: 100vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 10px solid white;
+}
+.coming-soon-box {	
+	img {
+		width: 30em;
+		padding: 10px 0;
+	}
+	h4 {
+		padding: 10px 0;
+		color: white;
+		letter-spacing: 1px;
+		font-weight: lighter
+	}
+	a {
+		color: white;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #F4F4F4;
+	}
+}
+@media only screen and (max-width:650px){
+	.wrapper {
+		border: 15px solid white;
+	}
+	.coming-soon-box {
+		img {
+			width: 25em;
+			padding: 5px 0;
+		}
+		h2 {
+			padding: 5px 0;
+			font-size: 30px;
+			letter-spacing: 1px;
+		}
+		p {
+			padding: 5px 0;
+			padding-bottom: 15px;
+		}
+	}
+}
+@media only screen and (max-width:490px){
+	.wrapper {
+	    border: 8px solid white;
+	}
+	.coming-soon-box {
+		padding: 0;
+		img {
+			width: 20em;
+			padding: 2.5px 0;
+		}
+		h2 {
+			font-size: 25px;
+			padding: 2.5px 0;
+			letter-spacing: 1px;
+		}
+		p {
+			padding: 2.5px 0;
+			padding-bottom: 7px;
+		}
+	}
+}
+@media only screen and (max-width:325px){
+	.coming-soon-box img {
+		width: 15em;
+		padding: 2.5px 0;
+		position: absolute;
+	    top: 52px;
+	    left: 13%;
+	}
+}
+
+
+
 // Specific CSS for your home-page
