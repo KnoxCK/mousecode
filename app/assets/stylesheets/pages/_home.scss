@@ -17,14 +17,14 @@
 	img {
 		width: 40em;
 		padding: 10px 0;
-		margin-top: 200px;
+		margin-top: 120px;
 	}
 	h4 {
 		padding: 10px 0;
 		color: white;
 		letter-spacing: 1px;
 		font-weight: lighter;
-		margin-top: 200px;
+		margin-top: 120px;
 	}
 	a {
 		color: white;
@@ -42,12 +42,12 @@
 		img {
 			width: 25em;
 			padding: 5px 0;
-			margin-top: 0;
+			margin-top: 0px;
 		}
 		h4 {
 			padding: 5px 0;
 			letter-spacing: 1px;
-			margin-top: 0;
+			margin-top: 50px;
 		}
 		p {
 			padding: 5px 0;
@@ -77,9 +77,43 @@
 	}
 }
 @media only screen and (max-width:387px){
-	.logo-box img {
-		width: 16em;
-		padding: 2.5px 0;
+	.logo-box {
+		img {
+			width: 19em;
+			padding: 2.5px 0;
+			position: absolute;
+    		left: 4vw;
+    		top: 10vh;
+	    }
+		h4 {
+			position: absolute;
+	    	left: 10vw;
+	    	bottom: 10vh;
+		}
+	}
+}
+@media only screen and (max-width:361px){
+	.logo-box {
+		img {
+    		width: 18em;
+	    }
+		h4 {
+	    	left: 8vw;
+		}
+	}
+}
+@media only screen and (max-width:320px){
+	.logo-box {
+		img {
+    		width: 16.5em;
+    		top: 20vh;
+    		left: 3vw;
+	    }
+		h4 {
+	    	bottom: 20vh;
+	    	font-size: 18px;
+	    	left: 12px;
+		}
 	}
 }
 
